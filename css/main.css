@@ -3529,6 +3529,14 @@ screen and (max-height: 480px) and (orientation: landscape) {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
+    
+    
+.pictures-content6 {
+    background-image: url('https://media1.tenor.com/images/d06b6446cb627c82b9e94d2d03b9fb2b/tenor.gif?itemid=5072117');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
 }
 @media screen and (max-width: 480px) and (orientation: portrait),
 screen and (max-height: 480px) and (orientation: landscape) {
