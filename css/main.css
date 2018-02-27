@@ -3539,7 +3539,7 @@ screen and (max-height: 480px) and (orientation: landscape) {
 }
 
 .pictures-content7 {
-    background-image: url('../jevon/pink.gif');
+    background-image: url("../jevon/pink.gif");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -3547,7 +3547,7 @@ screen and (max-height: 480px) and (orientation: landscape) {
 }
 
 .pictures-content8 {
-    background-image: url('../MIKE/flowers.gif');
+    background-image: url("../MIKE/flowers.gif");
     background-size: cover;
     width: 100%;
     height: 100%;
