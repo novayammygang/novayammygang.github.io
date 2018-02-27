@@ -790,7 +790,7 @@ screen and (max-height: 480px) and (orientation: landscape) {
 screen and (max-height: 480px) and (orientation: landscape) {
     .awge-tube-border-mobile {
         display: inherit;
-        background-image: url('https://dwvo2npct47gg.cloudfront.net/images/border-compressed.png');
+        background-image: url('https://cdn.discordapp.com/attachments/234174287261597697/417498802065506304/border-streched.png');
     }
 }
 
