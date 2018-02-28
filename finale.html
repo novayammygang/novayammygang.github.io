@@ -1,0 +1,71 @@
+<html><!-- Created by Ilya Zaidze and Alex Shortt --><!-- Alex Shortt :: Developer --><!-- twit: @_alexshortt --><!-- insta: @alexander.shortt --><!-- Ilya Zaidze :: Creative + Design --><!-- twit: @ilya2x --><!-- insta: @ilya 2x --><head>
+    <!--Page Details-->
+    <title>NovaYammyGang</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pictures">
+    <meta name="keywords" content="AWGE, Design, Style, A$AP, A$AP Rocky, ASAP, ASAP Rocky, Shirts, Hats, 3D">
+    <meta name="author" content="AWGE x A$AP Rocky">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="https://dwvo2npct47gg.cloudfront.net/images/awge-favicon.png">
+	
+	<body>
+    <!--CSS/Less-->
+    <link rel="stylesheet" type="text/css" href="css/69.css">
+   
+<div class="container">
+  <img src="images/molly69.jpg" >
+  <button class="btn" onclick="prize()"></button>
+</div>
+
+<script>
+function prize()
+{
+  alert("You win to retreive the prize you must pay an upfront fee of 10"); 
+}
+
+
+
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var user=getCookie("username");
+    if (user != "") {
+        alert("Welcome again " + user);
+    } else {
+       user = prompt("Please enter your name:","");
+       if (user != "" && user != null) {
+           setCookie("username", user, 30);
+       }
+    }
+}
+
+</script>
+<body onload="checkCookie()">
+</body>
+
+
+</script>
+		
+		
+	</html>
