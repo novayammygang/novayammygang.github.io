@@ -3561,6 +3561,22 @@ screen and (max-height: 480px) and (orientation: landscape) {
     height: 100%;
     overflow-y: scroll;
 }
+
+.pictures-content10 {
+    background-image: url("../images/IMG_2002.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.pictures-content11 {
+    background-image: url("../images/bgif.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
 @media screen and (max-width: 480px) and (orientation: portrait),
 screen and (max-height: 480px) and (orientation: landscape) {
     .pictures-content {
