@@ -803,9 +803,11 @@ screen and (max-height: 480px) and (orientation: landscape) {
     width: 100%;
 }
 video {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
+    height: auto !important;
+    width: auto !important;
     min-width: 100%;
     min-height: 100%;
     transform: translateX(calc((100% - 100vw) / 2));
