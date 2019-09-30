@@ -54,8 +54,8 @@
     </div>
     </div>
   </div>
-    <video playsinline autoplay muted loop>
-    <source src="Video.mp4" type="video/mp4">
+    <video playsinline autoplay muted loop id="myVideo">
+    <source src="Video.mp4" type="video/mp4" >
     Your browser does not support the video tag.
    </video>
     <script>
@@ -109,6 +109,17 @@ function checkCookie() {
         alert("Picture Abhi Baaki Hai Mere Dost -  Eagle God");
     }
     }
+
+var video=document.getElementById("myVideo") ;
+
+$(video).on("click", function(e){
+    if(video.muted){
+        video.muted = false;
+    }
+    else{
+        video.muted = true;
+    }
+});
 
 </script>
 <body onload="checkCookie()">
