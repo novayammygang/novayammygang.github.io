@@ -3501,15 +3501,16 @@ screen and (max-height: 480px) and (orientation: landscape) {
 }
 
 .pictures-content {
-    background-image: url('https://media.giphy.com/media/Y4KHgM3wk24VO/giphy.gif');
-    background-size: cover;
+    background-image: url('https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif');
+	overflow-y: scroll;
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
+
 }
 
+
 .pictures-content2 {
-    background-image: url('https://media.giphy.com/media/TOgT1sxf12pdm/giphy.gif');
+    background-image: url('http://giphygifs.s3.amazonaws.com/media/gi1Ufkn0B1gfm/giphy.gif');
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -4659,3 +4660,23 @@ setInterval(autoScrolling, 5000);
 
 
 }
+
+/* Centered text */
+.nice {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z.index: 10000;
+  font-size:200px;
+  
+}
+
+/* Centered text */
+.awge-space-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  
+}
+
